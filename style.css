@@ -1,0 +1,35 @@
+:root {
+    --couleur: #ff0000;
+}
+
+body {
+    background: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.bloc {
+    margin: 60px;
+    height: 300px;
+    width: 300px;
+    border-radius: 2rem;
+
+    /* Néon des bloc */
+    box-shadow: 
+        0px 0px 5px var(--couleur),
+        0px 0px 25px var(--couleur),
+        0px 0px 50px var(--couleur),
+        0px 0px 100px var(--couleur);
+}
+
+.text {
+    margin: 100px;
+    color: red;
+
+    /* Néon des texte */
+    text-shadow: 
+    0px 0px 5px var(--couleur),
+    0px 0px 25px var(--couleur),
+    0px 0px 50px var(--couleur);
+}
